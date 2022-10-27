@@ -1,0 +1,43 @@
+/*TO RESET DEFAULT TABLE STYLES*/
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;}
+/*new table style begings.*/
+table{
+    
+    width: auto;
+
+}
+
+th{
+    
+    text-align: left;
+
+}
+caption { 
+    
+    text-align: center;
+
+}
+table, th, td{
+
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px;
+
+}
+
+tr:nth-child(even){
+    background-color:aqua;
+}
