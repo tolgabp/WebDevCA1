@@ -1,34 +1,54 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
+<!-- Linked HTML file with style.css and page title was added. -->
 
 <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
+    <title>SALARY</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
 
 <body>
+
+    <!-- Inside the body tag, the table tag was created.  -->
+
+    <!-- Fixed header class so it can easily be manipulated on css -->
+
     <div class="fixed_header">
-        <a href="employees.html">EMPLOYEES | </a>
-        <a href="job_roles.html">JOB ROLES | </a>
+        <a href="employees.html">EMPLOYEES - </a>
+        <a href="job_roles.html">JOB ROLES - </a>
         <a href="departments.html">DEPARTMENTS</a>
     </div>
-    
+
     <div class="offset">
-        
-        <div class="tableHeader"
-        <caption>SALARY<caption>
-</div>
 
         <table>
-            
+
+            <caption>SALARY</caption>
+
+            <!-- Inside the table tag, the table rows were created.  -->
+
             <tr>
-                <th><img src="foreign_key.png" class="iconic-image" alt="Job_ID FK image"> Emp_ID(FK) <span class="data_type">int</span></th>
+
+                <!-- added FK icon -->
+                <!-- Used span in order to highlight the data types. -->
+                <th><img src="foreign_key.png" class="iconic-image" alt="Job_ID FK image"> Emp_ID(FK) <span
+                        class="data_type">int</span></th>
+
                 <th>emp_salary (€) <span class="data_type">int</span></th>
+
                 <th>salary_start_date <span class="data_type">date</span></th>
+
                 <th>promotion_y/n <span class="data_type">character</span></th>
             </tr>
+            
+            <!-- In this step, ten more rows created
+            to exemplify the content of the tables 
+            as it is stated in the assignment. -->
+
             <tr>
                 <td>1</td>
                 <td>2,000</td>
@@ -89,6 +109,14 @@
                 <td>06/09/2022</td>
                 <td>Y</td>
             </tr>
+
+             <!-- This additional row is solely created to make a distinction between table and page. -->
+            <tr>
+
+                <td colspan="4"> </td>
+
+            </tr>
+            
         </table>
 
     </div>

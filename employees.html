@@ -1,52 +1,62 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
+<!-- Linked HTML file with style.css and page title was added. -->
 
 <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
+    <title>EMPLOYEES</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
 
 <body>
+    
     <!-- Inside the body tag, the table tag was created.  -->
+    
+    <!-- Fixed header class so it can easily be manipulated on css -->
+    
     <div class="fixed_header">
-    
-        <a href="job_roles.html">JOB ROLES | </a>
-
-        <a href="departments.html">DEPARTMENTS | </a>
+        <a href="job_roles.html">JOB ROLES - </a>
+        <a href="departments.html">DEPARTMENTS - </a>
         <a href="salary.html">SALARY</a>
-    
     </div>
-    
-   
+
     <div class="offset">
 
-        <div class="tableHeader">
-            <caption>EMPLOYEES<caption>
-        </div>
         <table>
 
+            <caption>EMPLOYEES</caption>
 
-            
             <!-- Inside the table tag, the table rows were created.  -->
+            
             <tr>
+               
                 <!-- added PK icon -->
-                
-                <th><img src="primary_key.png" class="iconic-image" alt="EMPLOYEES PK image"> Emp_ID(PK) <span class="data_type">int</span></th>
-                
+                <!-- Used span in order to highlight the data types. -->
+                <th><img src="primary_key.png" class="iconic-image" alt="EMPLOYEES PK image"> Emp_ID(PK) <span
+                        class="data_type">int</span></th>
+
                 <th>date_of_birth <span class="data_type">int</span></th>
+                
                 <th>name_of_emp <span class="data_type">string</span></th>
+                
                 <th>gender <span class="data_type">character</span></th>
+                
                 <th>hire date <span class="data_type">date</span></th>
+                
                 <th>role_date <span class="data_type">date</span></th>
+                
                 <!-- added FK icon -->
-                <th><img src="foreign_key.png" class="iconic-image" alt="Job_ID FK image"> Job_ID(FK) <span class="data_type">int</span></th>
+                <th><img src="foreign_key.png" class="iconic-image" alt="Job_ID FK image"> Job_ID(FK) <span
+                        class="data_type">int</span></th>
             </tr>
-            <!-- In the second step, ten more rows created
+            
+            <!-- In this step, ten more rows created
             to exemplify the content of the tables 
             as it is stated in the assignment. -->
+           
             <tr>
 
                 <td>1</td>
@@ -56,6 +66,7 @@
                 <td>01/01/2022</td>
                 <td>05/01/2022</td>
                 <td>1</td>
+
             </tr>
             <tr>
                 <td>2</td>
@@ -137,6 +148,13 @@
                 <td>10/01/2022</td>
                 <td>05/09/2022</td>
                 <td>5</td>
+            </tr>
+            
+            <!-- This additional row is solely created to make a distinction between table and page. -->
+            <tr>
+                
+                <td colspan="7"> </td>
+
             </tr>
 
         </table>

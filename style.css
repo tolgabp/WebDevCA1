@@ -26,6 +26,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Helvetica;
+    
 }
 
 .offset {
@@ -61,23 +62,17 @@ a:active {
     width: 100%;
     height: 15px;
     font-weight: bold;
-    text-align: center;
-    background: aqua;
-    transition: 0.3s;
-    color: rgb(255, 255, 255);
+    background: rgb(216, 216, 237); color:aqua;
     padding: 95px;
-    font-size: 30px;
+    text-align: center;
     vertical-align: middle;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    
+    
     
 
-}
-.tableHeader {
-    width: 100%;
-    text-align: center;
-    vertical-align:middle;
-    padding: 60px;
-    background-color:blanchedalmond;
-    
 }
 
 .attributes {
@@ -121,6 +116,13 @@ th,
 td {
     padding: 10px;
 
+}
+
+caption {
+    text-align: center;
+    background-color: #23d5ab;
+    display: table-caption;
+    padding: 50px;
 }
 
 tr:nth-child(even) {
