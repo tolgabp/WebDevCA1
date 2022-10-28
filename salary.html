@@ -1,91 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
+
 <body>
-
-    <a href="employees.html">EMPLOYEES</a>
-    <a href="job_roles.html">JOB_ROLES</a>
-    <a href="departments.html">DEPARTMENTS</a>
-    <div class="header">
-        <h1>SALARY</h1>
+    <div class="fixed_header">
+        <a href="employees.html">EMPLOYEES | </a>
+        <a href="job_roles.html">JOB ROLES | </a>
+        <a href="departments.html">DEPARTMENTS</a>
     </div>
-        <div class="offset">
-    <table>
+    
+    <div class="offset">
         
-        <tr>
-            <th><img src="foreign_key.png" class="iconic-image" alt="Job_ID FK image"> Emp_ID(FK)</th>
-            <th>emp_salary (€)</th>
-            <th>salary_start_date</th>
-            <th>promotion_y/n</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2,000</td>
-            <td>01/01/2022</td>
-            <td>N</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>2,000</td>
-            <td>02/01/2022</td>
-            <td>N</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>2,000</td>
-            <td>03/01/2022</td>
-            <td>N</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>2,000</td>
-            <td>04/01/2022</td>
-            <td>N</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>2,000</td>
-            <td>05/01/2022</td>
-            <td>N</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>2,500</td>
-            <td>03/03/2022</td>
-            <td>Y</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>3,000</td>
-            <td>03/03/2022</td>
-            <td>Y</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>2,250</td>
-            <td>04/03/2022</td>
-            <td>Y</td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>9,600</td>
-            <td>09/07/2022</td>
-            <td>Y</td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>7,400</td>
-            <td>06/09/2022</td>
-            <td>Y</td>
-        </tr>
-    </table>
-
+        <div class="tableHeader"
+        <caption>SALARY<caption>
 </div>
 
+        <table>
+            
+            <tr>
+                <th><img src="foreign_key.png" class="iconic-image" alt="Job_ID FK image"> Emp_ID(FK) <span class="data_type">int</span></th>
+                <th>emp_salary (€) <span class="data_type">int</span></th>
+                <th>salary_start_date <span class="data_type">date</span></th>
+                <th>promotion_y/n <span class="data_type">character</span></th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2,000</td>
+                <td>01/01/2022</td>
+                <td>N</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2,000</td>
+                <td>02/01/2022</td>
+                <td>N</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2,000</td>
+                <td>03/01/2022</td>
+                <td>N</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>2,000</td>
+                <td>04/01/2022</td>
+                <td>N</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>2,000</td>
+                <td>05/01/2022</td>
+                <td>N</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>2,500</td>
+                <td>03/03/2022</td>
+                <td>Y</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>3,000</td>
+                <td>03/03/2022</td>
+                <td>Y</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>2,250</td>
+                <td>04/03/2022</td>
+                <td>Y</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>9,600</td>
+                <td>09/07/2022</td>
+                <td>Y</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>7,400</td>
+                <td>06/09/2022</td>
+                <td>Y</td>
+            </tr>
+        </table>
+
+    </div>
+
 </body>
+
 </html>

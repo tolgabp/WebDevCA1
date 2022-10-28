@@ -21,37 +21,81 @@ table {
 }
 
 /*new table style begings.*/
-body{
+body {
     height: 3000px;
     margin: 0;
     padding: 0;
     font-family: Helvetica;
 }
-.offset{
+
+.offset {
     margin-top: 0;
-    
+
     padding-top: 200px;
     text-align: left;
     transition: .3s;
     font-size: 30px;
 
 }
-.header{
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.fixed_header {
     position: fixed;
     width: 100%;
-    height: 75px;
+    height: 15px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     background: aqua;
     transition: 0.3s;
     color: rgb(255, 255, 255);
-    padding: 62px;
+    padding: 95px;
+    font-size: 30px;
+    vertical-align: middle;
     
+
+}
+.tableHeader {
+    width: 100%;
+    text-align: center;
+    vertical-align:middle;
+    padding: 60px;
+    background-color:blanchedalmond;
+    
+}
+
+.attributes {
+    font-size: small;
+    background-color: aqua;
+    color: whitesmoke;
+}
+
+.data_type {
+    background-color: aqua;
+    font-size: smaller;
+    display: inline-block;
 }
 
 table {
 
-    width: auto;
+    width: 100%;
+
 
 }
 
@@ -70,7 +114,7 @@ td {
     border: 1px solid #000;
     border-collapse: collapse;
     text-align: center;
-    
+
 }
 
 th,
